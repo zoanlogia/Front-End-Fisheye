@@ -1,9 +1,14 @@
+
 function displayModal() {
-    const modal = document.getElementById("contact_modal");
-	modal.style.display = "block";
+  btnModal.addEventListener("click", () => {
+    modal.style.display = "block";
+  });
 }
+displayModal()
 
 function closeModal() {
-    const modal = document.getElementById("contact_modal");
+  Close.addEventListener("click", () => {
     modal.style.display = "none";
+  });
 }
+closeModal()
